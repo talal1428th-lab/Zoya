@@ -42,7 +42,7 @@ load_dotenv()
 
 BOT_TOKEN = os.getenv("8769107448:AAGeKnnBXQ17OotwxF74BEw-RoyWA5Rfn5A", "").strip()
 GEMINI_API_KEY = os.getenv("AQ.Ab8RN6JleRj0ro710tioFrzCtMPh6odoVpyjyHtdkHrVxerZ8g", "").strip()
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash").strip()
+MODEL = os.getenv("gemini-2.5-flash").strip()
 
 if not BOT_TOKEN:
     raise RuntimeError(
